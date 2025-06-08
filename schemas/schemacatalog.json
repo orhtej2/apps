@@ -1,0 +1,70 @@
+{
+    "$schema": "https://json.schemastore.org/schema-catalog.json",
+    "version": 1,
+    "schemas": [
+        {
+            "name": "antifeatures.toml.schema.json",
+            "description": "Antifeatures configuration file",
+            "fileMatch": [
+                "antifeatures.toml"
+            ],
+            "url": "https://raw.githubusercontent.com/YunoHost/apps/refs/heads/main/schemas/antifeatures.toml.schema.json"
+        },
+        {
+            "name": "apps.toml.schema.json",
+            "description": "Apps list file",
+            "fileMatch": [
+                "apps.toml"
+            ],
+            "url": "https://raw.githubusercontent.com/YunoHost/apps/refs/heads/main/schemas/apps.toml.schema.json"
+        },
+        {
+            "name": "categories.toml.schema.json",
+            "description": "Categories configuration file",
+            "fileMatch": [
+                "categories.toml"
+            ],
+            "url": "https://raw.githubusercontent.com/YunoHost/apps/refs/heads/main/schemas/categories.toml.schema.json"
+        },
+        {
+            "name": "config_panel.v1.schema.json",
+            "description": "Config panel configuration file",
+            "fileMatch": [
+                "config_panel.toml"
+            ],
+            "url": "https://raw.githubusercontent.com/YunoHost/apps/refs/heads/main/schemas/config_panel.v1.schema.json"
+        },
+        {
+            "name": "graveyard.toml.schema.json",
+            "description": "Graveyard configuration file",
+            "fileMatch": [
+                "graveyard.toml"
+            ],
+            "url": "https://raw.githubusercontent.com/YunoHost/apps/refs/heads/main/schemas/graveyard.toml.schema.json"
+        },
+        {
+            "name": "manifest.v2.schema.json",
+            "description": "App manifest file",
+            "fileMatch": [
+                "manifest.toml"
+            ],
+            "url": "https://raw.githubusercontent.com/YunoHost/apps/refs/heads/main/schemas/manifest.v2.schema.json"
+        },
+        {
+            "name": "tests.v1.schema.json",
+            "description": "App CI tests file",
+            "fileMatch": [
+                "tests.toml"
+            ],
+            "url": "https://raw.githubusercontent.com/YunoHost/apps/refs/heads/main/schemas/tests.v1.schema.json"
+        },
+        {
+            "name": "wishlist.toml.schema.json",
+            "description": "App wishlist file",
+            "fileMatch": [
+                "wishlist.toml"
+            ],
+            "url": "https://raw.githubusercontent.com/YunoHost/apps/refs/heads/main/schemas/wishlist.toml.schema.json"
+        }
+    ]
+}
