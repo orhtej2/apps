@@ -18,14 +18,15 @@ jobs:
       - name: Checkout repository
         uses: actions/checkout@v4
 
-      - name: Install optipng
-        run: sudo apt-get install -y optipng
-
       - name: Get added PNG files
         id: changed-files
         uses: tj-actions/changed-files@v46
         with:
           files: "logos/**.png"
+
+      - name: Install optipng
+        if: steps.changed-files.outputs.any_changed == 'true'
+        run: sudo apt-get install -y optipng
 
       - name: Run optipng on added/modified PNGs
         if: steps.changed-files.outputs.any_changed == 'true'
